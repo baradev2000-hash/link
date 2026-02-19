@@ -1,0 +1,17 @@
+{
+  "name": "link",
+  "version": "1.0.0",
+  "description": "Serveur de redirection pour les payment links GafaPay",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "hono": "^4.0.0",
+    "@hono/node-server": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
